@@ -1,0 +1,32 @@
+about_the_job:
+  job_title: Frontend Engineer, Send To Amazon Team 
+  description: |
+    As a Front-End Engineer 2 at Amazon, you will be an autonomous contributor to your team's software, delivering working features spanning the full software lifecycle. You will collaborate effectively with cross-functional partners such as designers and product managers to create high-quality user experiences. Your code will demonstrate best practices and meet Amazon's high standards for quality.
+  responsibilities:
+    Deliver software features and improvements to major portions of your team's front-end software, including new development, refactoring, and deprecation work
+    Design and implement software solutions to enable new features or improve existing software
+    Work closely with customers, UX designers, product managers, and peers to understand business and customer value
+    Contribute significantly to the full software development lifecycle, including scoping, design, coding, testing, deployment, and maintenance
+    Demonstrate operational excellence in all work, including identifying and resolving root causes of operational issues
+    Actively participate in code reviews, providing meaningful feedback to team members
+    Mentor and help develop junior team members and interns
+  A_day_in_the_life:
+    As an FEE 2 at Amazon, your day is filled with diverse and engaging activities. You typically start by diving into coding, implementing new features or improving existing ones with high-quality, efficient front-end code. Throughout the day, you participate in code reviews, offering constructive feedback to your teammates and ensuring you all maintain high standards. Collaboration is a big part of your role - you work closely with UX designers, product managers, and backend engineers to understand requirements and integrate the front-end with APIs. You contribute to software design discussions, create technical designs for your assigned tasks, and write unit tests to ensure code reliability.
+    You're also involved in operational support, keeping an eye on system health and jumping in to resolve any production issues that arise. You make sure to update documentation as you implement changes and often find yourself mentoring junior engineers or interns. Project management is part of your responsibilities too - you update task statuses, estimate efforts for upcoming work, and participate in sprint planning and retrospectives.
+    You're always learning, staying updated on the latest front-end technologies and sharing knowledge with your team. You focus on performance optimization, ensuring the front-end is as fast and efficient as possible. Accessibility and internationalization are also key considerations in your work, as you strive to create the best possible user experience for all customers. While your specific tasks might vary depending on current projects and priorities, you work independently on most tasks, seeking guidance when you encounter particularly complex challenges or architectural decisions. It's a dynamic role that keeps you engaged and growing every day.
+  about_team:
+    As the STAP (Send to Amazon Platform) team, our goal is to develop the modern UI and redefine the customer experience for inbounding items to Amazon. Our aim is to simplify the inbound process and reduce total supply chain costs, while driving global customer growth.
+    We follow key tenets that guide our work. We strive to deliver a consistent UI with a single threaded owner, making Send to Amazon available in every marketplace rather than having specific workflows for each.
+    Leveraging past decisions while seeking innovation, we avoid storing customer data and instead focus on surfacing authoritative data sources. Our team of software development managers and engineers works diligently to enhance the STA application and its underlying platform.
+    We support the broader organization through regular office hours, engaging with external teams, and following best practices around code reviews, testing, and operational excellence. Our goal is to maintain the STA platform as a reliable and extensible solution for inbounding inventory to Amazon.
+
+  Qualifications:
+    Expirence with front end, web or mobile software development using JavaScript, HTML and CSS experience
+    Experience with computer science fundamentals (object-oriented design, data structures, algorithm design, problem solving and complexity analysis) experience
+    Experience using JavaScript frameworks such as angular and react
+    Experience using JavaScript frameworks such as angular and react
+    Code, design, and implementation sets the example to others
+    experience in agile software development methodology experience
+    Experience with common front-end technologies such as HTML, CSS, JS, TypeScript, and Node
+    Prior experience in component architecture, simplification, data structures and code refactoring
+    Retail/e-commerce system design experience in a global context

@@ -1,0 +1,11 @@
+# Ignore secrets.yaml inside resume_builder/util
+be/resume_builder/util/secrets.yaml
+
+# General ignores
+*.log
+*.env
+__pycache__/
+node_modules/
+dist/
+build/
+.DS_Store

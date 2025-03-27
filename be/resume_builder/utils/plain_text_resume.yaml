@@ -1,0 +1,125 @@
+personal_information:
+  name: "Satyanarayan"
+  surname: "Prashar"
+  date_of_birth: ""
+  country: "India"
+  city: "Bangalore"
+  address: ""
+  zip_code: "560093"
+  phone_prefix: "+91"
+  phone: "8210977331"
+  email: "satyanarayan.pr29@gmail.com"
+  github: "https://github.com/SatyanarayanPrashar"
+  linkedin: "https://www.linkedin.com/in/satyanarayan-prashar-57a170229/"
+
+education_details:
+  - education_level: "Bachelors in Engineering"
+    institution: "BMS Institute of Technology & Management"
+    field_of_study: "Electronics and Communication Engineering"
+    final_evaluation_grade: "8.19 CGPA"
+    start_date: "2021"
+    year_of_completion: "2025"
+    exam:
+      exam_name_1: ""
+      exam_name_2: ""
+      exam_name_3: ""
+      exam_name_4: ""
+      exam_name_5: ""
+      exam_name_6: ""
+
+experience_details:
+  - position: "Innovation & Automation Developer Intern"
+    company: "SAP Concur"
+    employment_period: "Jan 2025 - present"
+    location: "Bangalore, IN"
+    industry: "Software Development"
+    key_responsibilities:
+      - responsibility_1: "Building software for automating internal processes using Python and JavaScript"
+      - responsibility_2: "Streamlining repetitive tasks with Python, Selenium, REST APIs, and Jenkins"
+      - responsibility_3: ""
+    skills_acquired:
+      - "Python"
+      - "JavaScript"
+      - "Automation"
+
+  - position: "Product Management Intern"
+    company: "TreeVed pvt. ltd."
+    employment_period: "Jan 2023 - Nov 2023"
+    location: "Jaipur, IN"
+    industry: "Software Development"
+    key_responsibilities:
+      - responsibility_1: "Led a team of 6 engineers including Frontend (React, Flutter) & Backend (Django)"
+      - responsibility_2: "Developed product roadmap and implemented Agile methodologies"
+      - responsibility_3: "Conducted frequent code reviews and maintained documentation"
+    skills_acquired:
+      - "Leadership"
+      - "Agile Methodologies"
+      - "Project Management"
+
+projects:
+  - name: "Edloops"
+    description: "Developed a multi-AI agent driven platform that automates the entire course creation process
+• Designed agents for research, structuring, content curation, with evaluation at each step
+• Used Retrieval-augmented generation(RAG) to make the content interactive and context-aware
+• Techstack used - LLM, Typescript, React JS, Redux, Postgres, Prisma, Tailwind CSS"
+    link: "https://edloops.com/"
+
+  - name: "TreeVed"
+    description: "Created a platform to curate, discover and share links in form of Lists, Posts and save in Private Diary
+• Integrated APIs with the frontend and implemented authentication using JWT Tokens
+• Techstack consisted of HTML, Tailwind CSS, TypeScript, React JS, Redux"
+    link: "https://treeved-s.vercel.app/"
+
+achievements:
+  - name: ""
+    description: ""
+  - name: ""
+    description: ""
+
+certifications:
+  - name: ""
+    description: ""
+  - name: ""
+    description: ""
+
+languages:
+  - language: "English"
+    proficiency: "Fluent"
+  - language: "Hindi"
+    proficiency: "Fluent"
+
+interests:
+  - "Painting"
+  - "Reading books"
+  - "Psychology"
+
+availability:
+  notice_period: ""
+
+salary_expectations:
+  salary_range_usd: ""
+
+self_identification:
+  gender: "Male"
+  pronouns: "He"
+  veteran: "No"
+  disability: "No"
+  ethnicity: "white"
+
+legal_authorization:
+  eu_work_authorization: "Yes"
+  us_work_authorization: "No"
+  requires_us_visa: "Yes"
+  requires_us_sponsorship: "Yes"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "No"
+  requires_eu_sponsorship: "No"
+
+work_preferences:
+  remote_work: "Yes"
+  in_person_work: "Yes"
+  open_to_relocation: "Yes"
+  willing_to_complete_assessments: "Yes"
+  willing_to_undergo_drug_tests: "Yes"
+  willing_to_undergo_background_checks: "Yes"
