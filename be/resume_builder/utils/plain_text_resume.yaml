@@ -19,13 +19,12 @@ education_details:
     final_evaluation_grade: "8.19 CGPA"
     start_date: "2021"
     year_of_completion: "2025"
-    exam:
-      exam_name_1: ""
-      exam_name_2: ""
-      exam_name_3: ""
-      exam_name_4: ""
-      exam_name_5: ""
-      exam_name_6: ""
+  - education_level: "CBSE(XII)"
+    institution: "Ishan International Public School,"
+    field_of_study: "Science"
+    final_evaluation_grade: "86%"
+    start_date: "2020"
+    year_of_completion: "2019"
 
 experience_details:
   - position: "Innovation & Automation Developer Intern"

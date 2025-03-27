@@ -1,10 +1,8 @@
-import base64
 import os
 from pathlib import Path
 import tempfile
 import inquirer
 from config import global_config
-from style_manager import StyleManager
 from utils import HTML_to_PDF
 import webbrowser
 
@@ -25,7 +23,7 @@ class FacadeManager:
         # styles:  {'Clean Blue': ('style_samodum_bold.css', 'https://github.com/samodum'), 'Modern Blue': ('style_josylad_blue.css', 'https://github.com/josylad'),
         # 'Modern Grey': ('style_josylad_grey.css', 'https://github.com/josylad'), 'Default': ('style_krishnavalliappan.css', 'https://github.com/krishnavalliappan'),
         # 'Cloyola Grey': ('style_cloyola.css', 'https://github.com/cloyola')}
-        self.selected_style = 'default'  # Property to store the selected style
+        self.selected_style = 'Cloyola Grey'  # Property to store the selected style
 
     def prompt_user(self, choices: list[str], message: str) -> str:
         questions = [

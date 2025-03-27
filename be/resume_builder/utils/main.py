@@ -2,12 +2,7 @@ import base64
 import os
 from pathlib import Path
 import warnings
-import inquirer
-import requests
 import yaml
-import subprocess
-import sys
-from typing import Type
 
 from manager_facade import FacadeManager
 from resume import Resume
@@ -25,8 +20,6 @@ class CustomPendingDeprecationWarning(PendingDeprecationWarning):
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=PendingDeprecationWarning)
-
-
 
 @staticmethod
 def validate_secrets(secrets_yaml_path: Path):

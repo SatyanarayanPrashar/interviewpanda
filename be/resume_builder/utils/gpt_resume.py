@@ -1,25 +1,19 @@
 import json
 import os
-import tempfile
 import textwrap
 import time
 from datetime import datetime
 from typing import Dict, List
-from langchain_community.document_loaders import TextLoader
+
 from langchain_core.messages.ai import AIMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompt_values import StringPromptValue
-from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
-from langchain_core.runnables import RunnablePassthrough
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from langchain_text_splitters import TokenTextSplitter
-from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import FAISS
 from config import global_config
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
-import re  # For regex parsing, especially in `parse_wait_time_from_error_message`
 from requests.exceptions import HTTPError as HTTPStatusError  # Handling HTTP status errors
 import openai
 
@@ -187,6 +181,20 @@ class LLMResumer:
         chain = prompt | self.llm_cheap | StrOutputParser()
         output = chain.invoke({
             "personal_information": self.resume.personal_information
+        })
+        return output
+
+    def generate_objective(self) -> str:
+        objective_prompt_template = self._preprocess_template_string(
+            self.strings.prompt_objective
+        )
+        prompt = ChatPromptTemplate.from_template(objective_prompt_template)
+        chain = prompt | self.llm_cheap | StrOutputParser()
+        output = chain.invoke({
+            "achievements": self.resume.achievements,
+            "education_details": self.resume.education_details,
+            "skills": self.resume.skills,
+            "job_description": self.job_description
         })
         return output
 

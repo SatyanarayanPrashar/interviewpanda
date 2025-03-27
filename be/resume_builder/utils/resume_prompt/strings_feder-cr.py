@@ -10,6 +10,18 @@ Act as an HR expert and resume writer specializing in ATS-friendly resumes. Your
   {personal_information}
 """ + prompt_header_template
 
+prompt_objective = """
+Act as an HR expert and resume writer with a specialization in creating ATS-friendly resumes. Your task is to objective for a candidate for his resume, ensuring it aligns with the provided job description and his personal informations. Make sure it does not exceed 60 words.
+
+- **My information:**  
+  {achievements}
+  {education_details}
+  {skills}
+
+- **Job Description:**  
+  {job_description}
+"""+ prompt_objective_template
+
 
 prompt_education = """
 Act as an HR expert and resume writer with a specialization in creating ATS-friendly resumes. Your task is to articulate the educational background for a resume. For each educational entry, ensure you include:
