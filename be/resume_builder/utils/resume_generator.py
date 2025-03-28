@@ -1,10 +1,10 @@
 from typing import Any
 from string import Template
 from typing import Any
-from gpt_resume import LLMResumer
-from gpt_resume_job_description import LLMResumeJobDescription
-from module_loader import load_module
-from config import global_config
+from resume_builder.utils.gpt_resume import LLMResumer
+from resume_builder.utils.gpt_resume_job_description import LLMResumeJobDescription
+from resume_builder.utils.module_loader import load_module
+from resume_builder.utils.config import global_config
 
 class ResumeGenerator:
     def __init__(self):

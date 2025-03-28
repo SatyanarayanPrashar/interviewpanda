@@ -68,7 +68,7 @@ prompt_working_experience_template = """
     <div class="entry">
         <div class="en-entry">
             <div class="en-split">
-                <span class="entry-name">[Your Job Title]</span>,
+                <span class="entry-name">[Your Job Title]</span>
                 <span>[Start Date] – [End Date]</span>
             </div>
             <div class="en-split">

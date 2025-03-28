@@ -10,11 +10,11 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompt_values import StringPromptValue
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from config import global_config
+from resume_builder.utils.config import global_config
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
-from requests.exceptions import HTTPError as HTTPStatusError  # Handling HTTP status errors
+from requests.exceptions import HTTPError as HTTPStatusError
 import openai
 
 load_dotenv()

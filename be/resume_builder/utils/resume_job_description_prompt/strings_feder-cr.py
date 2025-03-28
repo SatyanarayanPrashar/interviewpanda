@@ -1,4 +1,4 @@
-from template_base import *
+from resume_builder.utils.template_base import *
 
 
 prompt_header = """

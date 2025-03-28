@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 import tempfile
 import inquirer
-from config import global_config
-from utils import HTML_to_PDF
+from resume_builder.utils.config import global_config
+from resume_builder.utils.utils import HTML_to_PDF
 import webbrowser
 
 class FacadeManager:

@@ -4,10 +4,10 @@ from pathlib import Path
 import warnings
 import yaml
 
-from manager_facade import FacadeManager
-from resume import Resume
-from style_manager import StyleManager
-from resume_generator import ResumeGenerator
+from resume_builder.utils.manager_facade import FacadeManager
+from resume_builder.utils.resume import Resume
+from resume_builder.utils.style_manager import StyleManager
+from resume_builder.utils.resume_generator import ResumeGenerator
 
 # Define custom deprecation warnings
 class CustomDeprecationWarning(DeprecationWarning):

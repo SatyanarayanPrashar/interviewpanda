@@ -1,4 +1,4 @@
-from template_base import *
+from resume_builder.utils.template_base import *
 
 prompt_header = """
 Act as an HR expert and resume writer specializing in ATS-friendly resumes. Your task is to create a professional and polished header for the resume. The header should:
